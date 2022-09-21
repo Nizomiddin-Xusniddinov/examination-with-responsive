@@ -1,0 +1,435 @@
+/* 
+font-family: 'Recoleta', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration:  none !important;
+    
+}
+/* universal_code */
+.same_button{
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 22px;
+    padding: 15px 25px ;
+    background-color: rgba(25, 140, 54, 1);
+    border-radius: 160px;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 27px;
+    color: rgba(22, 58, 36, 1);
+}
+.title{
+    font-family: 'Recoleta', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: rgba(22, 58, 36, 1); 
+}
+.little_title{
+    font-family: 'Recoleta', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 31px;
+    color: rgba(22, 58, 36, 1);
+}
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.easy img{
+    width: auto;
+}
+button{
+    border: none;
+}
+/* header_starting */
+header{
+    width: 100%;
+    background-color: rgba(22, 58, 36, 1);
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li a{
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 22px;
+    color: rgba(251, 250, 247, 1);
+}
+header .navbars{
+    padding: 25px;
+}
+header .header_title{
+    background: url('./img/header bac people.png') no-repeat right;
+}
+header .header_title h2{
+    font-family: 'Recoleta', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    color: rgba(251, 250, 247, 1);
+    padding-top: 120px;
+    padding-bottom: 18px;
+}
+header .header_title p{
+    color: rgba(251, 250, 247, 1);
+    padding-bottom: 129px;
+}
+/* section_starting */
+section{
+    width: 100%;
+    background: #E5E5E5;
+}
+/* *** people_starting *** */
+section .people{
+   margin-top: 120px; 
+}
+/* *** logos_starting *** */
+section  .logos{
+    margin-top: 116px;
+    text-align: center;
+}
+section .logos .title{
+    margin-bottom: 66px;
+    text-align: center;
+}
+/* *** hr_starting *** */
+section .hr{
+    background-color: rgba(22, 58, 36, 1);
+    padding-top: 66px;
+    padding-bottom: 154px;
+}
+section .hr p{
+    color: rgba(251, 250, 247, 1);
+    text-align: center;
+    padding-top: 28px;
+}
+section .hr .box{
+    text-align: center;
+} 
+/* *** employees_starting *** */
+section .employees{
+    background-color: rgba(242, 239, 230, 1);
+    padding-top: 114px;
+    padding-bottom: 134px;
+    
+}
+section .employees .box{
+    margin: auto;
+    text-align: center;
+}
+section .employees p{
+    padding-top: 27px;
+    padding-bottom: 2px;
+    
+}
+/* *** scenes_starting *** */
+section .scenes{
+    margin-top: 182px;
+    margin-bottom: 120px;
+}
+section .scenes .first .title{
+    margin-bottom: 27px;
+}
+section .scenes .first{
+    margin-bottom: 124px;
+}
+section .scenes .second .title ,p{
+    text-align: center;
+}
+section .scenes .second .title{
+    margin-bottom: 26px;
+}
+section .scenes .second ul li{
+    list-style: circle;
+}
+section .scenes .second .box{
+    padding-top: 50px;
+    padding-bottom: 66px;
+    background-color: rgba(251, 250, 247, 1);
+    border-radius: 15px;
+    padding-left: 40px;
+    
+}
+
+section .scenes .second .box .little_title{
+    margin-bottom: 23px;
+    margin-top: 20px;
+}
+section .scenes .second ul li{
+    margin-bottom: 15px;
+} 
+/* *** easy_starting *** */
+section .easy{
+    background-color: rgba(242, 239, 230, 1);
+    padding-top: 114px;
+    padding-bottom: 124px;
+}
+section .easy .title{
+    padding-bottom: 26px;
+
+}
+section .easy p{
+    padding-bottom: 18px;
+    padding-bottom: 62px;
+}
+section .easy .title{
+    text-align: center;
+}
+section .easy .box p{
+    padding-bottom: 13px;
+}
+section .easy .box{
+    text-align: center;
+}
+/* *** not_starting ***  */
+section .not{
+    margin-top:  130px;
+    margin-bottom: 135px;
+}
+section .not .title{
+    padding-bottom: 25px;
+}
+section .not p{
+    padding-bottom: 19px;
+    text-align: left;
+}
+section .not .same_button{
+    color: rgba(251, 250, 247, 1);
+}
+/* *** getstarted_starting *** */
+section .getstarted{
+    background: url('./img/bac\ leaf.png') no-repeat  left / cover;background-color: rgba(22, 58, 36, 1);
+    background-color: rgba(22, 58, 36, 1);
+    padding-top: 114px;
+    padding-bottom: 124px;
+    text-align: center;
+}
+section .getstarted .box{
+    margin: auto;
+}
+section .getstarted .box .title{
+    color: rgba(251, 250, 247, 1);
+    padding-bottom: 26px;
+}
+section .getstarted .box p{
+    padding-bottom: 18px;
+    color: rgba(251, 250, 247, 1);
+}
+section .getstarted .box .same_button{
+    background-color: rgba(250, 181, 160, 1);
+}
+/* main_starting */
+main{
+    background-color: rgba(242, 239, 230, 1);
+    padding-top: 54px;
+    padding-bottom: 79px;
+}
+main .input-group{
+    width: 100%;
+
+}
+main .input-group form{
+    display: flex;
+    position: relative;
+}
+main .input-group form .same_button{
+    position: absolute;
+    right: 0;
+}
+main .input-group form input{
+    padding-bottom: 11px;
+    width: 500px;
+    padding-top: 15px;
+    border-radius: 255px;
+    border: none;
+    margin-bottom: 11px;
+    padding-left: 10px;
+    font-size: 20px;
+   
+}
+main p{
+    text-align: left;
+}
+/* footer_starting */
+footer{
+    width: 100%;
+    background-color: black;
+    color: white ;
+}
+footer .navbars{
+    padding: 45px 0px;
+    border-bottom:1px solid white;
+}
+footer .navbars i{
+    color: white;
+    margin-right: 14px;
+}
+footer .footer_title ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer .footer_title p{
+    color: white ;
+}
+footer .footer_title ul li a{
+    color: rgba(25, 140, 54, 1) ;
+}
+
+/* media_starting */
+/* md = 991=768 */
+@media (max-width:991px) {
+    header .navbars .img{
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    header .header_title h2 {
+        font-family: 'Recoleta', sans-serif;
+        font-weight: 600;
+        font-size: 41px;
+        line-height: 50px;
+        color: rgba(251, 250, 247, 1);
+        padding-top: 98px;
+        padding-bottom: 10px;
+    }
+    section .scenes .second .title, p {
+        text-align: center;
+    }
+    section .people{
+        text-align: center;
+    }
+    .title {
+        font-family: 'Recoleta', sans-serif;
+        font-weight: 600;
+        font-size: 41px;
+        line-height: 40px;
+        color: rgba(22, 58, 36, 1);
+    }
+    section .hr .box{
+        margin-top: 20px;
+    }
+    section .scenes .first .title{
+        text-align: center;
+    }
+    section .scenes .second .box{
+        margin-top: 20px;
+    }
+    section .easy .box:nth-child(3){
+        display: none;
+    }
+    section .easy .first{
+        display: none;
+    }
+    main .input-group form input {
+        padding-bottom: 11px;
+        width: 334px;
+        padding-top: 11px;
+        border-radius: 255px;
+        border: none;
+        margin-bottom: 11px;
+    }
+    .same_button {
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 21px;
+        padding: 12px 22px;
+        background-color: rgba(25, 140, 54, 1);
+        border-radius: 160px;
+    }
+    footer .img{
+        text-align: center;
+    }
+    footer .icon{
+        text-align: center;
+    }
+    
+}
+/* sm 767=576 */
+@media (max-width:767px){
+    header .navbars ul{
+        text-align: center;
+        flex-direction: column;
+    }
+    header .navbars ul li{
+        padding-top: 25px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+    }
+    header .img{
+        text-align: center;
+    }
+    .title {
+        font-family: 'Recoleta', sans-serif;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 33px;
+        color: rgba(22, 58, 36, 1);
+    }
+    p {
+        font-family: 'Noto Sans', sans-serif;
+        line-height: 22px;
+        font-size: 13px;
+        color: rgba(22, 58, 36, 1);
+    }
+    section .easy {
+        background-color: rgba(242, 239, 230, 1);
+        padding-top: 64px;
+        padding-bottom: 74px;
+    }
+    section .easy .title {
+        padding-bottom: 18px;
+    }
+    section .easy p {
+        padding-bottom: 18px;
+        padding-bottom: 0px;
+    }
+    section .not .box{
+        text-align: center;
+    }
+    section .not p {
+        padding-bottom: 19px;
+        text-align: center;
+    }
+    section .not .img{
+        display: none;
+    }
+    main .input-group form input {
+        padding-bottom: 11px;
+        width: 305px;
+        padding-top: 11px;
+        border-radius: 255px;
+        border: none;
+        margin-bottom: 11px;
+        
+    }
+    section .getstarted .same_button {
+        font-family: 'Noto Sans', sans-serif;
+        line-height: -17px;
+        padding: 2px 1px;
+        background-color: rgba(25, 140, 54, 1);
+        border-radius: 160px;
+        font-size: 13px;
+    }
+    section .scenes .second .box {
+        padding-top: 50px;
+        padding-bottom: 66px;
+        background-color: rgba(251, 250, 247, 1);
+        border-radius: 15px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    section .scenes .second .box ul li{
+        list-style: none;
+    }
+}
+
+
+
